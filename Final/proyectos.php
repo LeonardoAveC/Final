@@ -97,7 +97,7 @@
                             <td><?= $datos->comentario ?></td>
                             <td>
                                 <div class="btn-group">
-                                    <a href="" class="btn btn-warning btn-sm">
+                                    <a href="modificar_proyecto.php?id=<?= $datos->id?>" class="btn btn-warning btn-sm">
                                         <i class="bi bi-pencil-square"></i> Editar
                                     </a>
                                     <a href="" class="btn btn-danger btn-sm">
