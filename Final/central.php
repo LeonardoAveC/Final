@@ -45,11 +45,12 @@
 </head>
 <body>
     <div class="container">
-        <h1>Master Plan</h1>
+        <h1>Máster Plan</h1>
+        <h2>Plataforma en línea para mejorar la organización, supervisión y culminación de tus proyectos.</h2>
         <div>
             <a href="proyectos.php" class="btn btn-custom btn-proyectos">Proyectos</a>
+            <a href="trabajador.php" class="btn btn-custom btn-trabajadores">Trabajadores</a>
             <a href="tareas.php" class="btn btn-custom btn-tareas">Tareas</a>
-            <a href="trabajadores.php" class="btn btn-custom btn-trabajadores">Trabajadores</a>
         </div>
     </div>
 

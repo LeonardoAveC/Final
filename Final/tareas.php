@@ -31,13 +31,29 @@
             top: 20px;
             right: 20px;
         }
+        
+        .table thead th {
+            background-color: #ffc107; 
+            color: #333; 
+        }
+        
+        .table tbody tr:hover {
+            background-color: #f1f1f1; 
+        }
+        
+        .table {
+            border-collapse: collapse;
+        }
+        .table th, .table td {
+            border: 1px solid #ddd; 
+        }
     </style>
 </head>
 <body>
         <?php
         include "modelo/conexion.php";
         ?>
-    <h1 class="text-center p-3">Tareas Master Plan</h1>
+    <h1 class="text-center p-3">Tareas Máster Plan</h1>
     <a href="central.php" class="btn btn-secondary btn-back">Regresar a Central</a>
     <div class="container-fluid row">
         <form class="col-3 p-2" method="POST">
